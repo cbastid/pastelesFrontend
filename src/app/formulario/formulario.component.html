@@ -1,0 +1,25 @@
+<form (submit)="puntuacion()" method="post">
+    <div class="listaTorta">
+
+      <div>
+        <select class="campo" name="puntaje" [(ngModel)]="calificacion">
+          <option value="1">1 Estrella </option>
+          <option value="2">2 Estrellas</option>
+          <option value="3">3 Estrellas</option>
+          <option value="4">4 Estrellas</option>
+          <option value="5">5 Estrellas</option>
+          <option value="6">6 Estrellas</option>
+          <option value="7">7 Estrellas</option>
+        </select>
+      </div>
+      <div class="spaces"></div>
+      <div>
+        <textarea class="campo" name="comentario" [(ngModel)]="comentario" cols="50" rows="3"
+          placeholder="ingrese comentario"></textarea><br>
+      </div>
+      <div class="spaces"></div>
+      <div>
+        <button type="submit">Enviar</button>
+      </div>
+    </div>
+  </form>

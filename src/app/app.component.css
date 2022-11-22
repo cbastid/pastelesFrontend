@@ -1,0 +1,83 @@
+.sec-1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+}
+
+.ingreso {
+    border: 2px solid black;
+    padding: 5px;
+    width: 400px;
+    height: 300px;
+    margin: 20px;
+
+}
+
+.scrollPastel {
+    
+    border : solid 2px black;
+    width: 700px;
+    height: 300px;
+    padding: 5px;
+    margin-top: 20px;
+    overflow : auto;
+    
+}
+
+img {
+    width: 200px;
+    height: 200px;
+}
+
+.imgPuntaje {
+    display: flex;
+    border: 2px solid red;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+
+}
+
+.listaTorta {
+    border: 2px solid blue;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-end;
+    flex-wrap: nowrap;
+    width: 400px;
+
+}
+
+.campo {
+    width: 90%;
+
+}
+
+.spaces {
+    height: 10px;
+}
+
+h1 {
+    margin: 30px;
+}
+.detalle {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+    margin: 20px;
+}
+
+.detComentario {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-star;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+    margin-right: 1000px;
+}
